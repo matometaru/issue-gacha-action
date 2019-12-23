@@ -1,0 +1,17 @@
+name: 'issue-gacha-action'
+description: 'get a issue randomly action'
+inputs:
+  token:
+    description: 'GitHub Token(scope: repo)'
+    required: false
+  label:
+    description: 'issue labels `lable1,label2,label3`'
+    required: false
+outputs:
+  title:
+    description: 'Issue title'
+  htmlUrl:
+    description: 'Issue html url'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

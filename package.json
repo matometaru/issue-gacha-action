@@ -1,0 +1,16 @@
+{
+  "name": "issue-gacha-action",
+  "version": "1.0.0",
+  "description": "Get a issue randomly action",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@octokit/rest": "^16.35.2"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.20.5"
+  }
+}
